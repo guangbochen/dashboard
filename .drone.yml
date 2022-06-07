@@ -30,7 +30,7 @@ trigger:
   ref:
   - "refs/heads/master"
   - "refs/heads/*-dev"
-  - "refs/heads/release-*"
+  - "refs/heads/harvester-release-*"
   event:
   - push
 
@@ -135,7 +135,7 @@ depends_on:
 trigger:
   ref:
   - "refs/heads/*-dev"
-  - "refs/heads/release-*"
+  - "refs/heads/harvester-release-*"
   event:
   - push
 
@@ -248,7 +248,7 @@ depends_on:
 trigger:
   ref:
   - "refs/heads/*-dev"
-  - "refs/heads/release-*"
+  - "refs/heads/harvester-release-*"
   event:
   - push
 
